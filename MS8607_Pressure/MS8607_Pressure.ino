@@ -48,6 +48,6 @@ void loop() {
 
     Serial.print(temp.temperature);
     Serial.print(" ");
-    Serial.println(pressure.pressure*0.1);
+    Serial.println(pressure.pressure*0.1);//kPa
     delay(500);
 }
